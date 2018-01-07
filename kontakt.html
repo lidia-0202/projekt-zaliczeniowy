@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+    <title>Ciekawy świat</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="javascript/index.js"></script>
+  </head>
+  <body>
+    <div class='container' style='background-color:beige'>
+            <div class="row">
+                    <div class="col-12" style="background-color:lavender;">
+                       <a href="index.html"> <img src="grafika/logotyp.jpg" alt="logo" width="100%"></a>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-12" style="background-color:lavender;">
+                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                            <!-- Links -->
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Strona główna</a>
+                                </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="info.html">Podróże</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="galeria.html">Galeria</a>
+                              </li>
+                              <li class="nav-item">
+                                    <a class="nav-link" href="kontakt.html">Kontakt</a>
+                                  </li>
+                            </ul>
+                          </nav>
+                    </div>
+            </div>
+            <div class="row">
+             <div class="col-12" style="background-color:lavender;">
+              <h2>Chciałbys uzyskać więcej informacji o podróżach lub napisać komentarz, skontaktuj się ze mną za pomoca formularza</h2>
+                 <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Imię:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Wpisz swoje imię" maxlength="15" name="name" required="required">
+                     </div>
+                    <div class="form-group">
+                         <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Wpisz e-mail" name="email" required="required">
+                     </div>
+                     <div class="form-group">
+                        <label for="comment">Wiadomość:</label>
+                        <textarea class="form-control" id="comment" name="comment">Napisz do mnie...</textarea>
+                        </div>
+              
+                     <div class="form-group">
+                         <label for="travel">Który kontynent jest napiękniejszy?</label> <br/>
+                            <input type="radio" name="travel" value="afryka"> Afryka <br/>
+                            <input type="radio" name="travel" value="ameryka polnocna"> Ameryka Północna <br/>
+                            <input type="radio" name="travel" value="ameryka poludniowa"> Ameryka Południowa <br/>
+                            <input type="radio" name="travel" value="austalia i oceania"> Austalia i Oceania <br/>
+                            <input type="radio" name="travel" value="antarktyda"> Antarktyda <br/>
+                            <input type="radio" name="travel" value="azja"> Azja <br/>
+                            <input type="radio" name="travel" value="europa"> Europa <br/>
+                    </div>
+                    <div class="form-check">
+                            <label class="form-check-label">
+                             <input class="form-check-input" type="checkbox"> Chcę otrzymywać informację o nowych artykułach
+                            </label>
+                    </div>
+                    <button type="submit" id="send" class="btn btn-dark" onclick="Message()">Wyślij</button>
+                </form>
+             </div>
+          </div>
+          
+            <div class="row">
+                <div class="col-12" style="background-color:rgb(19, 2, 27)">Copyright © 2018  Lidia Wakan</div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>
