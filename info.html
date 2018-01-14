@@ -10,51 +10,84 @@
 
     <title>Ciekawy świat</title>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <script src="javascript/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class='container' style='background-color:beige'>
-            <div class="row">
-                    <div class="col-12" style="background-color:lavender;">
-                       <a href="index.html"> <img src="grafika/logotyp.jpg" alt="logo" width="100%"></a>
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="col-12" style="background-color:lavender;">
-                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                            <!-- Links -->
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Strona główna</a>
-                                </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="info.html">Podróże</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">Galeria</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="kontakt.html">Kontakt</a>
-                                  </li>
-                            </ul>
-                          </nav>
-                          </div>
-            </div>
-            <div class="row">
-                <div class="col-12" style="background-color:rgb(19, 2, 27)">Copyright © 2018  Lidia Wakan</div>
+    <div class='container-fluid'>
+      <div class="row">
+        <div class="col">
+          <a href="index.html"> <img src="grafika/logotyp.jpg" alt="logo" width="100%"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Strona główna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info.html">Podróże</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                   Interesuje cię Azja - To może Tajlandia?
+                  </a>
+                </div>
+                <div id="collapseOne" class="collapse show">
+                  <div class="card-body">
+                      Tajlandia jest jednym z najchętniej odwiedzanych krajów Azji, popularnym celem wakacyjnych wyjazdów, wypraw trampingowych, czy podróży poślubnych. Od lat nieustannie przyciąga tłumy turystów z całego świata, spragnionych słońca i egzotycznych doświadczeń.<hr/>
+                      Tajlandia ma bardzo dużo do zaoferowania turystom. Przede wszystkim wspaniałą, bagatą i egzotyczną kulturę. Setki stup i świątyń zachwycają niemal na każdym kroku, a ruiny pradawnych miast mają niesamowity klimat. W dżungli żyje wiele mniejszości etnicznych.<hr/>
+                      Wielkim magnesem przyciągającym turystów do Tajlandii są również, a może przede wszystkim, plaże, ciepły klimat oraz tropikalna przyroda. Dziesiątki wysp i wysepek, setki bajecznych plaż, wszechobecne palmy kokosowe, turkusowa woda oraz kolorowa, pełna życia rafa koralowa stanowią prawdziwy raj dla miłośników słońca, plażowego lenistwa i pluskania się w ciepłej wodzie. Poza wodą są jeszcze malownicze poletka ryżowe, góry oraz tropikalna dżungla, idealne do uprawiania trekkingu, przejażdżek na słoniach oraz raftingu.<hr/>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                    Interesuje cię Europa - To może Madera? 
+                  </a>
+                </div>
+                <div id="collapseTwo" class="collapse">
+                  <div class="card-body">
+                    Madera to niewielka wyspa na Oceanie Atlantyckim na północ od Wysp Kanaryjskich. Jest nazywana  "Perłą Atlantyku", "wyspą dla aktywnych" i "krainą wiecznej wiosny" wszystkie te określenia są jak najbardziej trafne. W pobliżu znajduje się kilka małych niezamieszkałych wysp Ihlas Desertas oraz mała wyspa Porto Santo, zgoła odmienna od Madery, bo nie posiadająca tak spektakularnych klifów, ale za to z piaszczystymi plażami. Madera jest wyspą górzystą z dużymi różnicami wysokości i krętymi drogami omijającymi klify. Średnia temperatura w kwietniu to 19 stopni Celsjusza, a w maju słupek rtęci wskazuje ok. 21 stopni. Podobnie jak Wyspy Kanaryjskie, Madera także jest pochodzenia wulkanicznego, jednak tutejszy krajobraz znacznie różni się od hiszpańskiego zakątka. Podczas gdy na Kanarach przeważają księżycowe widoki - wulkaniczne stożki, wygasłe kratery i gołe skały - ta wyspa zachwyca wszechobecnymi kolorowymi kwiatami, gęsto porośniętymi wzgórzami, zapierającymi dech w piersiach urwiskami i malowniczymi wodospadami. To właśnie ze względu na bogatą roślinność nazywana jest często "wiecznie zielonym ogrodem Europy".
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a class="collapsed card-link" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                    Interesuje cię Polska - To może Bieszczady?
+                  </a>
+                </div>
+                <div id="collapseThree" class="collapse">
+                  <div class="card-body">
+                      Bieszczady.. ah te Bieszczady! Bezkres połonin, kapryśna pogoda na szlakach, mozaika wielu kultur, bieszczadzkie diabły i anioły, bieszczadzka muzyka ich przede wszystkim te oszałamiające bieszczadzkie piękno. Bieszczady są bowiem nie tylko atrakcją przyrodniczą, ale też zjawiskiem kulturowym i socjologicznym. Burzliwa historia regionu sprawiła, że do dziś znaleźć można pozostałości wsi i zatarte ślady ludzkiej bytności pochłonięte przez naturę, natomiast w wyludnione góry i doliny ściągali uciekinierzy i oryginały. Bieszczady były i w pewnym stopniu pozostają polskim "dzikim Zachodem". <hr/>
+                      Bieszczadzki Park Narodowy jest trzecim co do wielkości parkiem narodowym w Polsce. 80 proc. jego powierzchni pokrywają lasy, w których polują wilki, rysie i niedźwiedzie i orły, a spokoju szukają żubry i łosie.
+                  </div>
+                </div>
+              </div>
             </div>
         </div>
-
+      </div>
+      <div class="row">
+        <div class="col"><p class="bg-dark text-muted">Copyright © 2018  Lidia Wakan</p></div>
+      </div>
     </div>
-    <script>
-    function Message() {
-      alert ("Dziękuję za poprawne wypełnienie formularza");
-  }
-  </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
 </html>

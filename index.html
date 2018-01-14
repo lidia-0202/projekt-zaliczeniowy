@@ -10,75 +10,67 @@
 
     <title>Ciekawy świat</title>
     <link href="css/style.css" type="text/css" rel="stylesheet"/>
-    <script src="javascript/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class='container' style='background-color:beige'>
-            <div class="row">
-                    <div class="col" style="background-color:lavender;">
-                       <a href="index.html"> <img src="grafika/logotyp.jpg" alt="logo" width="100%"></a>
-                    </div>
+    <div class='container-fluid'>
+        <div class="row">
+            <div class="col">
+                <a href="index.html"> <img src="grafika/logotyp.jpg" alt="logo" width="100%"></a>
             </div>
-            <div class="row">
-                    <div class="col" style="background-color:lavender;">
-                    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                            <!-- Links -->
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Strona główna</a>
-                                </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="info.html">Podróże</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="galeria.html">Galeria</a>
-                              </li>
-                              <li class="nav-item">
-                                    <a class="nav-link" href="kontakt.html">Kontakt</a>
-                                  </li>
-                            </ul>
-                          </nav>
-                          </div>
             </div>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-
-                    <!-- Indicators -->
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Strona główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="info.html">Podróże</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kontakt.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="demo" class="carousel slide" data-ride="carousel">
                     <ul class="carousel-indicators">
                       <li data-target="#demo" data-slide-to="0" class="active"></li>
                       <li data-target="#demo" data-slide-to="1"></li>
                       <li data-target="#demo" data-slide-to="2"></li>
                     </ul>
-                    
-                    <!-- The slideshow -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="grafika/ko.JPG" alt="Ko Phi Phi" width="1100" height="500">
+                        <img src="grafika/madera.JPG" alt="Madera" width="100%">
                       </div>
                       <div class="carousel-item">
-                        <img src="grafika/pai.JPG" alt="Pai" width="1100" height="500">
+                        <img src="grafika/bieszczady.jpg" alt="Bieszczady" width="100%">
                       </div>
                       <div class="carousel-item">
-                        <img src="grafika/raily.jpg" alt="Raily" width="1100" height="500">
+                        <img src="grafika/raily.jpg" alt="Raily" width="100%">
                       </div>
                     </div>
-                    
-                    <!-- Left and right controls -->
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
                       <span class="carousel-control-prev-icon"></span>
                     </a>
                     <a class="carousel-control-next" href="#demo" data-slide="next">
                       <span class="carousel-control-next-icon"></span>
                     </a>
-                  </div>
-            <div class="row">
-                <div class="col" style="background-color:rgb(19, 2, 27)">Copyright © 2018  Lidia Wakan</div>
+                </div>
             </div>
+        </div>        
+        <div class="row">
+            <div class="col"><p class="bg-dark text-muted">Copyright © 2018  Lidia Wakan</p></div>
+        </div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
 </html>
